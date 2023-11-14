@@ -1,6 +1,5 @@
 import { useRef, useState, useEffect } from "react";
 import unsplash from "./api/unsplash";
-import response from "./response";
 function ColorList( props ) {
 	return(
 		<li className="flex align-center mt-1 hover:bg-blue-100 p-2 cursor-pointer" onClick={props.selectColor}>
