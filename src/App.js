@@ -197,8 +197,9 @@ function App() {
 	
 
 	useEffect(()=>{
-		// eslint-disable-next-line react-hooks/exhaustive-deps
+		// eslint-disable-next-line
 		getImages()
+		// eslint-disable-next-line
 	}, [])
 	const wrapperRef = useRef(null);
 	const handleClickOutside = (event) => {
